@@ -11,7 +11,9 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+
 }
+
 
 rootProject.name = "DarkMode"
 include(":app")
