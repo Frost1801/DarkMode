@@ -11,12 +11,15 @@
     android:id="@+id/mainLinearLayout"
     >
 
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="80dp"
         android:text="@string/mainTitle"
         android:textSize="40sp"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
 
     <com.google.android.material.switchmaterial.SwitchMaterial
         android:id="@+id/material_switch"
@@ -26,6 +29,39 @@
         android:layout_margin="10dp"
         android:text="@string/switch_text"
         android:textColor="@color/black"
-        android:textSize="20sp" />
+        android:textSize="30sp" />
+    <ImageView
+        android:id = "@+id/monster"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src = "@drawable/monster"
+        android:visibility="gone"
+        android:contentDescription="TODO" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/mainTextBox"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:text = "@string/appdescription"
+            android:textSize="50sp"
+            android:textColor="@color/black"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/descriptionbox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="150dp"
+            android:textAlignment="center"
+            android:text = "@string/pressButton"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+             />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>
