@@ -3,7 +3,7 @@
     <string name="switch_text">Toggle dark mode</string>
     <string name="mainTitle">WhiteDarkMode</string>
     <string name="pressButton">Go ahead, press the button, i\'m sure nothing bad will happen…</string>
-    <string name="memeText">Just kidding, now I\'m inside your walls</string>
+    <string name="insideWalls">Just kidding, now I\'m inside your walls</string>
     <string name="reassuring">See? Nothing happened…</string>
     <string name="cantEscape">And now you can\'t escape</string>
     <string name="appdescription">This is a simple dark mode app, press the button to change to dark mode!</string>
